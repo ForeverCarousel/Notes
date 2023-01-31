@@ -1,0 +1,701 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		741923821A635FF6002276AD /* LayerTimeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 741923801A635FF6002276AD /* LayerTimeViewController.m */; };
+		741923831A635FF6002276AD /* LayerTimeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 741923811A635FF6002276AD /* LayerTimeViewController.xib */; };
+		742047001A5FE17B0090B722 /* Ship.png in Resources */ = {isa = PBXBuildFile; fileRef = 742046FF1A5FE17B0090B722 /* Ship.png */; };
+		7440B7831A64B15600178440 /* BufferViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7440B7811A64B15600178440 /* BufferViewController.m */; };
+		7440B7841A64B15600178440 /* BufferViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7440B7821A64B15600178440 /* BufferViewController.xib */; };
+		747F0D1D1A5B73AD005AA981 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D1C1A5B73AD005AA981 /* main.m */; };
+		747F0D201A5B73AD005AA981 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D1F1A5B73AD005AA981 /* AppDelegate.m */; };
+		747F0D231A5B73AD005AA981 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D221A5B73AD005AA981 /* MasterViewController.m */; };
+		747F0D261A5B73AD005AA981 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D251A5B73AD005AA981 /* DetailViewController.m */; };
+		747F0D291A5B73AE005AA981 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D271A5B73AE005AA981 /* Main.storyboard */; };
+		747F0D2B1A5B73AE005AA981 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D2A1A5B73AE005AA981 /* Images.xcassets */; };
+		747F0D2E1A5B73AE005AA981 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D2C1A5B73AE005AA981 /* LaunchScreen.xib */; };
+		747F0D3A1A5B73AE005AA981 /* iOSCoreAnimationAdvancedTechniquesCodeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D391A5B73AE005AA981 /* iOSCoreAnimationAdvancedTechniquesCodeTests.m */; };
+		747F0D451A5B79E1005AA981 /* BasicViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D441A5B79E1005AA981 /* BasicViewController.m */; };
+		747F0D4C1A5B7AAA005AA981 /* LayerTreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D4A1A5B7AAA005AA981 /* LayerTreeViewController.m */; };
+		747F0D4D1A5B7AAA005AA981 /* LayerTreeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D4B1A5B7AAA005AA981 /* LayerTreeViewController.xib */; };
+		747F0D4F1A5B837B005AA981 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 747F0D4E1A5B837B005AA981 /* CoreGraphics.framework */; };
+		747F0D531A5B85DC005AA981 /* BoardingFigureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D511A5B85DC005AA981 /* BoardingFigureViewController.m */; };
+		747F0D541A5B85DC005AA981 /* BoardingFigureViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D521A5B85DC005AA981 /* BoardingFigureViewController.xib */; };
+		747F0D581A5B8A82005AA981 /* Sprites.png in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D571A5B8A82005AA981 /* Sprites.png */; };
+		747F0D601A5B8F83005AA981 /* LayerOfGeometryViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D5E1A5B8F83005AA981 /* LayerOfGeometryViewController.m */; };
+		747F0D611A5B8F83005AA981 /* LayerOfGeometryViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D5F1A5B8F83005AA981 /* LayerOfGeometryViewController.xib */; };
+		747F0D631A5B9E14005AA981 /* 3.4.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D621A5B9E14005AA981 /* 3.4.jpeg */; };
+		747F0D681A5BA085005AA981 /* VisualEffectViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D661A5BA085005AA981 /* VisualEffectViewController.m */; };
+		747F0D691A5BA085005AA981 /* VisualEffectViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D671A5BA085005AA981 /* VisualEffectViewController.xib */; };
+		747F0D6D1A5BA351005AA981 /* Digits.png in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D6C1A5BA351005AA981 /* Digits.png */; };
+		747F0D721A5BC242005AA981 /* CGAffineTransformViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 747F0D701A5BC242005AA981 /* CGAffineTransformViewController.m */; };
+		747F0D731A5BC242005AA981 /* CGAffineTransformViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 747F0D711A5BC242005AA981 /* CGAffineTransformViewController.xib */; };
+		74AF21FF1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74AF21FD1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.m */; };
+		74AF22001A5E8F2F003AF8D7 /* ExplicitAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74AF21FE1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.xib */; };
+		74C9629D1A5E607B00262378 /* SpecialLayerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C9629B1A5E607B00262378 /* SpecialLayerViewController.m */; };
+		74C9629E1A5E607B00262378 /* SpecialLayerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74C9629C1A5E607B00262378 /* SpecialLayerViewController.xib */; };
+		74C962A01A5E700100262378 /* mao.png in Resources */ = {isa = PBXBuildFile; fileRef = 74C9629F1A5E700100262378 /* mao.png */; };
+		74C962A31A5E72D900262378 /* ReflectionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C962A21A5E72D900262378 /* ReflectionView.m */; };
+		74C962A81A5E810000262378 /* ImplicitAnimationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 74C962A61A5E810000262378 /* ImplicitAnimationViewController.m */; };
+		74C962A91A5E810000262378 /* ImplicitAnimationViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 74C962A71A5E810000262378 /* ImplicitAnimationViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		742047761A5FEE680090B722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742047711A5FEE670090B722 /* ExplicitAnimationTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 742047481A5FEE670090B722;
+			remoteInfo = ExplicitAnimationTest;
+		};
+		742047781A5FEE680090B722 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742047711A5FEE670090B722 /* ExplicitAnimationTest.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 742047611A5FEE670090B722;
+			remoteInfo = ExplicitAnimationTestTests;
+		};
+		747F0D341A5B73AE005AA981 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 747F0D0F1A5B73AD005AA981 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 747F0D161A5B73AD005AA981;
+			remoteInfo = iOSCoreAnimationAdvancedTechniquesCode;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		7419237F1A635FF6002276AD /* LayerTimeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerTimeViewController.h; sourceTree = "<group>"; };
+		741923801A635FF6002276AD /* LayerTimeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerTimeViewController.m; sourceTree = "<group>"; };
+		741923811A635FF6002276AD /* LayerTimeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerTimeViewController.xib; sourceTree = "<group>"; };
+		742046FF1A5FE17B0090B722 /* Ship.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Ship.png; sourceTree = "<group>"; };
+		742047711A5FEE670090B722 /* ExplicitAnimationTest.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ExplicitAnimationTest.xcodeproj; path = ExplicitAnimationTest/ExplicitAnimationTest.xcodeproj; sourceTree = "<group>"; };
+		7440B7801A64B15500178440 /* BufferViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BufferViewController.h; sourceTree = "<group>"; };
+		7440B7811A64B15600178440 /* BufferViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BufferViewController.m; sourceTree = "<group>"; };
+		7440B7821A64B15600178440 /* BufferViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BufferViewController.xib; sourceTree = "<group>"; };
+		747F0D171A5B73AD005AA981 /* iOSCoreAnimationAdvancedTechniquesCode.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOSCoreAnimationAdvancedTechniquesCode.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		747F0D1B1A5B73AD005AA981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747F0D1C1A5B73AD005AA981 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		747F0D1E1A5B73AD005AA981 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		747F0D1F1A5B73AD005AA981 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		747F0D211A5B73AD005AA981 /* MasterViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		747F0D221A5B73AD005AA981 /* MasterViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		747F0D241A5B73AD005AA981 /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		747F0D251A5B73AD005AA981 /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		747F0D281A5B73AE005AA981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		747F0D2A1A5B73AE005AA981 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		747F0D2D1A5B73AE005AA981 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		747F0D331A5B73AE005AA981 /* iOSCoreAnimationAdvancedTechniquesCodeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = iOSCoreAnimationAdvancedTechniquesCodeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		747F0D381A5B73AE005AA981 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		747F0D391A5B73AE005AA981 /* iOSCoreAnimationAdvancedTechniquesCodeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = iOSCoreAnimationAdvancedTechniquesCodeTests.m; sourceTree = "<group>"; };
+		747F0D431A5B79E1005AA981 /* BasicViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BasicViewController.h; sourceTree = "<group>"; };
+		747F0D441A5B79E1005AA981 /* BasicViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BasicViewController.m; sourceTree = "<group>"; };
+		747F0D491A5B7AAA005AA981 /* LayerTreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerTreeViewController.h; sourceTree = "<group>"; };
+		747F0D4A1A5B7AAA005AA981 /* LayerTreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerTreeViewController.m; sourceTree = "<group>"; };
+		747F0D4B1A5B7AAA005AA981 /* LayerTreeViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerTreeViewController.xib; sourceTree = "<group>"; };
+		747F0D4E1A5B837B005AA981 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		747F0D501A5B85DC005AA981 /* BoardingFigureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BoardingFigureViewController.h; sourceTree = "<group>"; };
+		747F0D511A5B85DC005AA981 /* BoardingFigureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BoardingFigureViewController.m; sourceTree = "<group>"; };
+		747F0D521A5B85DC005AA981 /* BoardingFigureViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BoardingFigureViewController.xib; sourceTree = "<group>"; };
+		747F0D571A5B8A82005AA981 /* Sprites.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Sprites.png; sourceTree = "<group>"; };
+		747F0D5D1A5B8F83005AA981 /* LayerOfGeometryViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayerOfGeometryViewController.h; sourceTree = "<group>"; };
+		747F0D5E1A5B8F83005AA981 /* LayerOfGeometryViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayerOfGeometryViewController.m; sourceTree = "<group>"; };
+		747F0D5F1A5B8F83005AA981 /* LayerOfGeometryViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LayerOfGeometryViewController.xib; sourceTree = "<group>"; };
+		747F0D621A5B9E14005AA981 /* 3.4.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = 3.4.jpeg; sourceTree = "<group>"; };
+		747F0D651A5BA085005AA981 /* VisualEffectViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VisualEffectViewController.h; sourceTree = "<group>"; };
+		747F0D661A5BA085005AA981 /* VisualEffectViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VisualEffectViewController.m; sourceTree = "<group>"; };
+		747F0D671A5BA085005AA981 /* VisualEffectViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = VisualEffectViewController.xib; sourceTree = "<group>"; };
+		747F0D6C1A5BA351005AA981 /* Digits.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Digits.png; sourceTree = "<group>"; };
+		747F0D6F1A5BC242005AA981 /* CGAffineTransformViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CGAffineTransformViewController.h; sourceTree = "<group>"; };
+		747F0D701A5BC242005AA981 /* CGAffineTransformViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CGAffineTransformViewController.m; sourceTree = "<group>"; };
+		747F0D711A5BC242005AA981 /* CGAffineTransformViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CGAffineTransformViewController.xib; sourceTree = "<group>"; };
+		74AF21FC1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ExplicitAnimationViewController.h; sourceTree = "<group>"; };
+		74AF21FD1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ExplicitAnimationViewController.m; sourceTree = "<group>"; };
+		74AF21FE1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ExplicitAnimationViewController.xib; sourceTree = "<group>"; };
+		74C9629A1A5E607B00262378 /* SpecialLayerViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SpecialLayerViewController.h; sourceTree = "<group>"; };
+		74C9629B1A5E607B00262378 /* SpecialLayerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SpecialLayerViewController.m; sourceTree = "<group>"; };
+		74C9629C1A5E607B00262378 /* SpecialLayerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SpecialLayerViewController.xib; sourceTree = "<group>"; };
+		74C9629F1A5E700100262378 /* mao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = mao.png; sourceTree = "<group>"; };
+		74C962A11A5E72D900262378 /* ReflectionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReflectionView.h; sourceTree = "<group>"; };
+		74C962A21A5E72D900262378 /* ReflectionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReflectionView.m; sourceTree = "<group>"; };
+		74C962A51A5E810000262378 /* ImplicitAnimationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ImplicitAnimationViewController.h; sourceTree = "<group>"; };
+		74C962A61A5E810000262378 /* ImplicitAnimationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ImplicitAnimationViewController.m; sourceTree = "<group>"; };
+		74C962A71A5E810000262378 /* ImplicitAnimationViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ImplicitAnimationViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		747F0D141A5B73AD005AA981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747F0D4F1A5B837B005AA981 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747F0D301A5B73AE005AA981 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7419237C1A635FD7002276AD /* LayerTimeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7419237F1A635FF6002276AD /* LayerTimeViewController.h */,
+				741923801A635FF6002276AD /* LayerTimeViewController.m */,
+				741923811A635FF6002276AD /* LayerTimeViewController.xib */,
+			);
+			name = LayerTimeViewController;
+			sourceTree = "<group>";
+		};
+		742047721A5FEE670090B722 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				742047771A5FEE680090B722 /* ExplicitAnimationTest.app */,
+				742047791A5FEE680090B722 /* ExplicitAnimationTestTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7440B77D1A64B12F00178440 /* BufferViewController */ = {
+			isa = PBXGroup;
+			children = (
+				7440B7801A64B15500178440 /* BufferViewController.h */,
+				7440B7811A64B15600178440 /* BufferViewController.m */,
+				7440B7821A64B15600178440 /* BufferViewController.xib */,
+			);
+			name = BufferViewController;
+			sourceTree = "<group>";
+		};
+		747F0D0E1A5B73AD005AA981 = {
+			isa = PBXGroup;
+			children = (
+				747F0D4E1A5B837B005AA981 /* CoreGraphics.framework */,
+				747F0D191A5B73AD005AA981 /* iOSCoreAnimationAdvancedTechniquesCode */,
+				747F0D361A5B73AE005AA981 /* iOSCoreAnimationAdvancedTechniquesCodeTests */,
+				747F0D181A5B73AD005AA981 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		747F0D181A5B73AD005AA981 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				747F0D171A5B73AD005AA981 /* iOSCoreAnimationAdvancedTechniquesCode.app */,
+				747F0D331A5B73AE005AA981 /* iOSCoreAnimationAdvancedTechniquesCodeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		747F0D191A5B73AD005AA981 /* iOSCoreAnimationAdvancedTechniquesCode */ = {
+			isa = PBXGroup;
+			children = (
+				747F0D1E1A5B73AD005AA981 /* AppDelegate.h */,
+				747F0D1F1A5B73AD005AA981 /* AppDelegate.m */,
+				747F0D211A5B73AD005AA981 /* MasterViewController.h */,
+				747F0D221A5B73AD005AA981 /* MasterViewController.m */,
+				747F0D241A5B73AD005AA981 /* DetailViewController.h */,
+				747F0D251A5B73AD005AA981 /* DetailViewController.m */,
+				747F0D431A5B79E1005AA981 /* BasicViewController.h */,
+				747F0D441A5B79E1005AA981 /* BasicViewController.m */,
+				747F0D551A5B85E6005AA981 /* LayerTreeViewController */,
+				747F0D561A5B85F2005AA981 /* BoardingFigureViewController */,
+				747F0D591A5B8F54005AA981 /* LayerOfGeometry */,
+				747F0D641A5BA05B005AA981 /* VisualEffect */,
+				747F0D6E1A5BC233005AA981 /* CGAffineTransform */,
+				74C962961A5E601700262378 /* SpecialLayerViewController */,
+				74C962A41A5E80E700262378 /* ImplicitAnimationViewController */,
+				74AF21FB1A5E8F17003AF8D7 /* ExplicitAnimationViewController */,
+				7419237C1A635FD7002276AD /* LayerTimeViewController */,
+				7440B77D1A64B12F00178440 /* BufferViewController */,
+				747F0D271A5B73AE005AA981 /* Main.storyboard */,
+				747F0D2A1A5B73AE005AA981 /* Images.xcassets */,
+				747F0D2C1A5B73AE005AA981 /* LaunchScreen.xib */,
+				747F0D1A1A5B73AD005AA981 /* Supporting Files */,
+			);
+			path = iOSCoreAnimationAdvancedTechniquesCode;
+			sourceTree = "<group>";
+		};
+		747F0D1A1A5B73AD005AA981 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				747F0D1B1A5B73AD005AA981 /* Info.plist */,
+				747F0D1C1A5B73AD005AA981 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		747F0D361A5B73AE005AA981 /* iOSCoreAnimationAdvancedTechniquesCodeTests */ = {
+			isa = PBXGroup;
+			children = (
+				747F0D391A5B73AE005AA981 /* iOSCoreAnimationAdvancedTechniquesCodeTests.m */,
+				747F0D371A5B73AE005AA981 /* Supporting Files */,
+			);
+			path = iOSCoreAnimationAdvancedTechniquesCodeTests;
+			sourceTree = "<group>";
+		};
+		747F0D371A5B73AE005AA981 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				747F0D381A5B73AE005AA981 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		747F0D551A5B85E6005AA981 /* LayerTreeViewController */ = {
+			isa = PBXGroup;
+			children = (
+				747F0D491A5B7AAA005AA981 /* LayerTreeViewController.h */,
+				747F0D4A1A5B7AAA005AA981 /* LayerTreeViewController.m */,
+				747F0D4B1A5B7AAA005AA981 /* LayerTreeViewController.xib */,
+			);
+			name = LayerTreeViewController;
+			sourceTree = "<group>";
+		};
+		747F0D561A5B85F2005AA981 /* BoardingFigureViewController */ = {
+			isa = PBXGroup;
+			children = (
+				747F0D501A5B85DC005AA981 /* BoardingFigureViewController.h */,
+				747F0D511A5B85DC005AA981 /* BoardingFigureViewController.m */,
+				747F0D521A5B85DC005AA981 /* BoardingFigureViewController.xib */,
+				747F0D571A5B8A82005AA981 /* Sprites.png */,
+			);
+			name = BoardingFigureViewController;
+			sourceTree = "<group>";
+		};
+		747F0D591A5B8F54005AA981 /* LayerOfGeometry */ = {
+			isa = PBXGroup;
+			children = (
+				747F0D5D1A5B8F83005AA981 /* LayerOfGeometryViewController.h */,
+				747F0D5E1A5B8F83005AA981 /* LayerOfGeometryViewController.m */,
+				747F0D5F1A5B8F83005AA981 /* LayerOfGeometryViewController.xib */,
+				747F0D621A5B9E14005AA981 /* 3.4.jpeg */,
+			);
+			name = LayerOfGeometry;
+			sourceTree = "<group>";
+		};
+		747F0D641A5BA05B005AA981 /* VisualEffect */ = {
+			isa = PBXGroup;
+			children = (
+				747F0D651A5BA085005AA981 /* VisualEffectViewController.h */,
+				747F0D661A5BA085005AA981 /* VisualEffectViewController.m */,
+				747F0D671A5BA085005AA981 /* VisualEffectViewController.xib */,
+				747F0D6C1A5BA351005AA981 /* Digits.png */,
+			);
+			name = VisualEffect;
+			sourceTree = "<group>";
+		};
+		747F0D6E1A5BC233005AA981 /* CGAffineTransform */ = {
+			isa = PBXGroup;
+			children = (
+				747F0D6F1A5BC242005AA981 /* CGAffineTransformViewController.h */,
+				747F0D701A5BC242005AA981 /* CGAffineTransformViewController.m */,
+				747F0D711A5BC242005AA981 /* CGAffineTransformViewController.xib */,
+			);
+			name = CGAffineTransform;
+			sourceTree = "<group>";
+		};
+		74AF21FB1A5E8F17003AF8D7 /* ExplicitAnimationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74AF21FC1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.h */,
+				74AF21FD1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.m */,
+				74AF21FE1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.xib */,
+				742046FF1A5FE17B0090B722 /* Ship.png */,
+				742047711A5FEE670090B722 /* ExplicitAnimationTest.xcodeproj */,
+			);
+			name = ExplicitAnimationViewController;
+			sourceTree = "<group>";
+		};
+		74C962961A5E601700262378 /* SpecialLayerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74C9629A1A5E607B00262378 /* SpecialLayerViewController.h */,
+				74C9629B1A5E607B00262378 /* SpecialLayerViewController.m */,
+				74C9629C1A5E607B00262378 /* SpecialLayerViewController.xib */,
+				74C962A11A5E72D900262378 /* ReflectionView.h */,
+				74C962A21A5E72D900262378 /* ReflectionView.m */,
+				74C9629F1A5E700100262378 /* mao.png */,
+			);
+			name = SpecialLayerViewController;
+			sourceTree = "<group>";
+		};
+		74C962A41A5E80E700262378 /* ImplicitAnimationViewController */ = {
+			isa = PBXGroup;
+			children = (
+				74C962A51A5E810000262378 /* ImplicitAnimationViewController.h */,
+				74C962A61A5E810000262378 /* ImplicitAnimationViewController.m */,
+				74C962A71A5E810000262378 /* ImplicitAnimationViewController.xib */,
+			);
+			name = ImplicitAnimationViewController;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		747F0D161A5B73AD005AA981 /* iOSCoreAnimationAdvancedTechniquesCode */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747F0D3D1A5B73AE005AA981 /* Build configuration list for PBXNativeTarget "iOSCoreAnimationAdvancedTechniquesCode" */;
+			buildPhases = (
+				747F0D131A5B73AD005AA981 /* Sources */,
+				747F0D141A5B73AD005AA981 /* Frameworks */,
+				747F0D151A5B73AD005AA981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = iOSCoreAnimationAdvancedTechniquesCode;
+			productName = iOSCoreAnimationAdvancedTechniquesCode;
+			productReference = 747F0D171A5B73AD005AA981 /* iOSCoreAnimationAdvancedTechniquesCode.app */;
+			productType = "com.apple.product-type.application";
+		};
+		747F0D321A5B73AE005AA981 /* iOSCoreAnimationAdvancedTechniquesCodeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 747F0D401A5B73AE005AA981 /* Build configuration list for PBXNativeTarget "iOSCoreAnimationAdvancedTechniquesCodeTests" */;
+			buildPhases = (
+				747F0D2F1A5B73AE005AA981 /* Sources */,
+				747F0D301A5B73AE005AA981 /* Frameworks */,
+				747F0D311A5B73AE005AA981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				747F0D351A5B73AE005AA981 /* PBXTargetDependency */,
+			);
+			name = iOSCoreAnimationAdvancedTechniquesCodeTests;
+			productName = iOSCoreAnimationAdvancedTechniquesCodeTests;
+			productReference = 747F0D331A5B73AE005AA981 /* iOSCoreAnimationAdvancedTechniquesCodeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		747F0D0F1A5B73AD005AA981 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = chen;
+				TargetAttributes = {
+					747F0D161A5B73AD005AA981 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					747F0D321A5B73AE005AA981 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = 747F0D161A5B73AD005AA981;
+					};
+				};
+			};
+			buildConfigurationList = 747F0D121A5B73AD005AA981 /* Build configuration list for PBXProject "iOSCoreAnimationAdvancedTechniquesCode" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 747F0D0E1A5B73AD005AA981;
+			productRefGroup = 747F0D181A5B73AD005AA981 /* Products */;
+			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 742047721A5FEE670090B722 /* Products */;
+					ProjectRef = 742047711A5FEE670090B722 /* ExplicitAnimationTest.xcodeproj */;
+				},
+			);
+			projectRoot = "";
+			targets = (
+				747F0D161A5B73AD005AA981 /* iOSCoreAnimationAdvancedTechniquesCode */,
+				747F0D321A5B73AE005AA981 /* iOSCoreAnimationAdvancedTechniquesCodeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		742047771A5FEE680090B722 /* ExplicitAnimationTest.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ExplicitAnimationTest.app;
+			remoteRef = 742047761A5FEE680090B722 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		742047791A5FEE680090B722 /* ExplicitAnimationTestTests.xctest */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.cfbundle;
+			path = ExplicitAnimationTestTests.xctest;
+			remoteRef = 742047781A5FEE680090B722 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXResourcesBuildPhase section */
+		747F0D151A5B73AD005AA981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747F0D611A5B8F83005AA981 /* LayerOfGeometryViewController.xib in Resources */,
+				747F0D6D1A5BA351005AA981 /* Digits.png in Resources */,
+				741923831A635FF6002276AD /* LayerTimeViewController.xib in Resources */,
+				747F0D631A5B9E14005AA981 /* 3.4.jpeg in Resources */,
+				747F0D691A5BA085005AA981 /* VisualEffectViewController.xib in Resources */,
+				747F0D4D1A5B7AAA005AA981 /* LayerTreeViewController.xib in Resources */,
+				7440B7841A64B15600178440 /* BufferViewController.xib in Resources */,
+				74C962A01A5E700100262378 /* mao.png in Resources */,
+				747F0D291A5B73AE005AA981 /* Main.storyboard in Resources */,
+				74AF22001A5E8F2F003AF8D7 /* ExplicitAnimationViewController.xib in Resources */,
+				747F0D2E1A5B73AE005AA981 /* LaunchScreen.xib in Resources */,
+				747F0D581A5B8A82005AA981 /* Sprites.png in Resources */,
+				74C9629E1A5E607B00262378 /* SpecialLayerViewController.xib in Resources */,
+				74C962A91A5E810000262378 /* ImplicitAnimationViewController.xib in Resources */,
+				747F0D731A5BC242005AA981 /* CGAffineTransformViewController.xib in Resources */,
+				747F0D2B1A5B73AE005AA981 /* Images.xcassets in Resources */,
+				747F0D541A5B85DC005AA981 /* BoardingFigureViewController.xib in Resources */,
+				742047001A5FE17B0090B722 /* Ship.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747F0D311A5B73AE005AA981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		747F0D131A5B73AD005AA981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747F0D4C1A5B7AAA005AA981 /* LayerTreeViewController.m in Sources */,
+				747F0D201A5B73AD005AA981 /* AppDelegate.m in Sources */,
+				747F0D231A5B73AD005AA981 /* MasterViewController.m in Sources */,
+				747F0D1D1A5B73AD005AA981 /* main.m in Sources */,
+				747F0D721A5BC242005AA981 /* CGAffineTransformViewController.m in Sources */,
+				74C962A31A5E72D900262378 /* ReflectionView.m in Sources */,
+				747F0D451A5B79E1005AA981 /* BasicViewController.m in Sources */,
+				74C9629D1A5E607B00262378 /* SpecialLayerViewController.m in Sources */,
+				74C962A81A5E810000262378 /* ImplicitAnimationViewController.m in Sources */,
+				747F0D531A5B85DC005AA981 /* BoardingFigureViewController.m in Sources */,
+				7440B7831A64B15600178440 /* BufferViewController.m in Sources */,
+				747F0D261A5B73AD005AA981 /* DetailViewController.m in Sources */,
+				74AF21FF1A5E8F2F003AF8D7 /* ExplicitAnimationViewController.m in Sources */,
+				747F0D601A5B8F83005AA981 /* LayerOfGeometryViewController.m in Sources */,
+				747F0D681A5BA085005AA981 /* VisualEffectViewController.m in Sources */,
+				741923821A635FF6002276AD /* LayerTimeViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		747F0D2F1A5B73AE005AA981 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				747F0D3A1A5B73AE005AA981 /* iOSCoreAnimationAdvancedTechniquesCodeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		747F0D351A5B73AE005AA981 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 747F0D161A5B73AD005AA981 /* iOSCoreAnimationAdvancedTechniquesCode */;
+			targetProxy = 747F0D341A5B73AE005AA981 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		747F0D271A5B73AE005AA981 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				747F0D281A5B73AE005AA981 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		747F0D2C1A5B73AE005AA981 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				747F0D2D1A5B73AE005AA981 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		747F0D3B1A5B73AE005AA981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		747F0D3C1A5B73AE005AA981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		747F0D3E1A5B73AE005AA981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSCoreAnimationAdvancedTechniquesCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		747F0D3F1A5B73AE005AA981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = iOSCoreAnimationAdvancedTechniquesCode/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		747F0D411A5B73AE005AA981 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSCoreAnimationAdvancedTechniquesCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSCoreAnimationAdvancedTechniquesCode.app/iOSCoreAnimationAdvancedTechniquesCode";
+			};
+			name = Debug;
+		};
+		747F0D421A5B73AE005AA981 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = iOSCoreAnimationAdvancedTechniquesCodeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/iOSCoreAnimationAdvancedTechniquesCode.app/iOSCoreAnimationAdvancedTechniquesCode";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		747F0D121A5B73AD005AA981 /* Build configuration list for PBXProject "iOSCoreAnimationAdvancedTechniquesCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747F0D3B1A5B73AE005AA981 /* Debug */,
+				747F0D3C1A5B73AE005AA981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747F0D3D1A5B73AE005AA981 /* Build configuration list for PBXNativeTarget "iOSCoreAnimationAdvancedTechniquesCode" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747F0D3E1A5B73AE005AA981 /* Debug */,
+				747F0D3F1A5B73AE005AA981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		747F0D401A5B73AE005AA981 /* Build configuration list for PBXNativeTarget "iOSCoreAnimationAdvancedTechniquesCodeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				747F0D411A5B73AE005AA981 /* Debug */,
+				747F0D421A5B73AE005AA981 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 747F0D0F1A5B73AD005AA981 /* Project object */;
+}
